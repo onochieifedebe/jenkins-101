@@ -23,7 +23,7 @@ docker network create jenkins
 ### MacOS / Linux
 ```
 docker run \
-  --name jenkins-blueocean \
+  --name myjenkins-blueocean \
   --restart=on-failure \
   --detach \
   --network jenkins \
